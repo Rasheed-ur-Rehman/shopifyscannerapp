@@ -2,7 +2,11 @@
 export enum AppView {
   LANDING = 'LANDING',
   SCANNING = 'SCANNING',
-  DASHBOARD = 'DASHBOARD'
+  DASHBOARD = 'DASHBOARD',
+  PRICING = 'PRICING',
+  HOW_IT_WORKS = 'HOW_IT_WORKS',
+  AUTH = 'AUTH',
+  SIGNUP = 'SIGNUP'
 }
 
 export interface ShopifyIssue {
@@ -28,4 +32,11 @@ export interface ModalContent {
   description: string;
   actionLabel?: string;
   onAction?: () => void;
+}
+
+export interface Message {
+  id: string;
+  text: string;
+  sender: 'user' | 'bot';
+  timestamp: Date;
 }
