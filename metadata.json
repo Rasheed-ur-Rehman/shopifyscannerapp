@@ -1,0 +1,5 @@
+{
+  "name": "Shopify Revenue Leak Scanner",
+  "description": "An AI-powered diagnostic tool for Shopify stores to identify conversion bottlenecks and missed revenue opportunities using advanced analytics scanning.",
+  "requestFramePermissions": []
+}
