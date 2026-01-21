@@ -23,7 +23,9 @@ export interface ScanResult {
   summary: string;
 }
 
-export interface ShopifyStore {
-  name: string;
-  url: string;
+export interface ModalContent {
+  title: string;
+  description: string;
+  actionLabel?: string;
+  onAction?: () => void;
 }
